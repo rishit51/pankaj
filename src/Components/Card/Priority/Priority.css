@@ -1,0 +1,17 @@
+/* src/components/TaskCard.css */
+
+.priority-icon {
+    display: inline-block; /* Ensures it behaves like an inline element with a block container */
+    width: 14px; /* Adjust the size of the icon */
+    height: 14px; /* Match width and height for square icons */
+    margin-right: 8px; /* Space between icon and text if needed */
+    border: 1px solid #f1f1f1;
+    border-radius: 20%;
+  }
+  
+  .priority-icon img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 100%; /* Ensures the image maintains the correct aspect ratio */
+    object-fit: contain; /* Ensures the image doesn't stretch */
+  }
+  

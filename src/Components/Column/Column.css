@@ -1,0 +1,16 @@
+.column {
+    background-color: #f7f7f7;
+    padding: 16px;
+    width: 300px;
+  }
+  
+  .column-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .column-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
